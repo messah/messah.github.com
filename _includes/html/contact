@@ -1,0 +1,27 @@
+<div class="contact">
+  <p>
+    {{ site.param.fullname }}<br />
+    {{ site.param.title }}<br />
+    {% if site.param.email %}
+      <a href="mailto:please.no.spam.please{{ site.param.email }}please.no.spam.please"
+        onclick="this.href=this.href.replace(/please[.]no[.]spam[.]please/gi,'')"
+        title="Lütfen e-posta göndermek için tıklayın" >
+      E-posta adresi</a><br />
+    {% endif %}
+    {% if site.param.gpg %}
+      GnuPG ortak anahtar
+    {% endif %}
+  </p>
+</div>
+<div class="contact">
+  <p>
+    <a href="http://github.com/{{ site.account }}/">github.com/{{ site.account }}</a><br />
+    <a href="{{ site.param.twitter }}/">{{ site.param.twitter }}</a><br />
+    {% if site.param.flickr %}
+      <a href="{{ site.param.flickr }}/">{{ site.param.flickr }}</a><br />
+    {% endif %}
+    {% if site.param.gpg %}
+      <a href="{{ site.url }}/{{ site.param.user }}.asc"><code>{{ site.param.gpg }}</code></a>
+    {% endif %}
+  </p>
+</div>
