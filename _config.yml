@@ -19,7 +19,7 @@ rdiscount:
 # ----------------------------------------------------------------------
 
 # github hesap adı (ör. roktas)
-account: "00010011"
+account: messah
 
 # github organizasyonu (ör. 19)
 organization: 19
@@ -27,7 +27,7 @@ organization: 19
 # bu siteyi üreten github deposu (ör. roktas.github.com)
 # dikkat!  depo çoğunlukla <account>.github.com formundadır.  fakat başka
 # bir depo da olabilir.  url parametresi için yazılan açıklamayı okuyun.
-repository: 00010011.github.com
+repository: messah.github.com
 
 # üretilen sitenin web adresi ne?  ör. "http://roktas.github.com".
 # CNAME kaydımız varsa bu adresi giriyoruz.  dikkat!  bu site
@@ -59,23 +59,23 @@ param:
         # --------------------------------------------------------------
         # unix kullanıcı adı (ör. roktas)
         # dikkat!  unix kullanıcı adı github hesabından farklı olabilir
-        user: 19
+        user: messah
         # tam kullanıcı adı (ör. Recai Oktaş)
-        fullname: 19
+        fullname: Mesut Muhammet Şahin
         # email adresi (ör. roktas@bil.omu.edu.tr)
-        email: 19@bil.omu.edu.tr
+        email: messah@bil.omu.edu.tr
         # ünvan (ör. Bilgisayar Mühendisliği Öğrencisi)
-        title: <a href="http://ondokuz.biz/">19</a> üyesi
+        title: <a href="http://ondokuz.biz/">messah</a> üyesi
         # GnuPG kısa parmak izi (ör. DEADBEEF)
         gpg: ~
         # twitter adresi (ör. http://19.status.net/roktas)
-        twitter: http://19.status.net
+        twitter: http://19.status.net/messah
         # flick adresi (ör. http://flickr.com/photos/roktas)
-        flickr: http://flickr.com/photos/19
+        flickr: http://flickr.com/photos/messah
         # facebook adresi (ör. http://facebook.com/roktas)
-        facebook: http://facebook.com/19
+        facebook: http://facebook.com/messah
         # özet akışı adresi (ör. http://feeds.feedburner.com/roktas)
-        feed: http://feeds.feedburner.com/19
+        feed: http://feeds.feedburner.com/messah
 
         # --------------------------------------------------------------
         # sitede kullanılan bazı metinler
@@ -98,7 +98,7 @@ param:
         archive: Son Girdiler
         # ilişkili girdiler
         related: Diğer Girdiler
-        # logo (ör. http://00010011.github.com/assets/19/19-normal-128x128.png)
+        # logo (ör. http://messah.github.com/assets/19/19-normal-128x128.png)
         logo: http://ondokuz.biz/chrome/biz/biz-normal-128x128.png
         # google site içi arama kutusu
         google: ~
